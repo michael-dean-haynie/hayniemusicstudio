@@ -1,0 +1,30 @@
+/*
+|---------------------------------------
+| Development Configuration
+|---------------------------------------
+/*
+
+hayniemusicstudio\public\index.php
+
+  on line 22: require __DIR__."/../bootstrap/autoload.php";
+  on line 36: $app = require_once __DIR__.'/../bootstrap/app.php';
+
+hayniemusicstudio\.env
+
+  Configure for local RDMS
+
+
+/*
+|---------------------------------------
+| Production Configuration
+|---------------------------------------
+/*
+
+hayniemusicstudio\public\index.php
+
+  on line 22: require __DIR__."/../hayniemusicstudio/bootstrap/autoload.php";
+  on line 36: $app = require_once __DIR__.'/../hayniemusicstudio/bootstrap/app.php';
+
+hayniemusicstudio\.env
+
+  Configure for hosted RDMS

@@ -1,0 +1,16 @@
+.btn{
+    margin-bottom:2rem;
+}
+h2{
+    font-size:4rem;
+    text-decoration: underline;
+}
+.row{
+    /*background-color:#0C5DA5;*/
+    border-radius: 10px;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+.warning{
+    color:red;
+}

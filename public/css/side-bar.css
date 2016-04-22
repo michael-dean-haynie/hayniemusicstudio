@@ -1,0 +1,14 @@
+.side-bar{
+	margin-top:1rem;
+    background-color:white;
+    border-radius:1rem;
+    min-height: 30rem;
+    padding:1rem;
+/* 		overflow:auto; */
+}
+.sb-heading{
+    font-size:2rem;
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold
+}

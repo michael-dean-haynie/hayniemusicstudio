@@ -1,0 +1,82 @@
+/*for testing purposes if mom wants different color*/
+
+.jumbotron {
+	margin-top:1rem;
+	padding:0 !important;
+	/*background-image: url("../img/MomsJumbo2.jpg");
+	background-repeat:no-repeat;
+	width:100%;*/
+	/*height = needed height to comply for stretched width*/
+	/*height:200px;*/
+
+	background-size:cover;
+}
+.jumbo-img{
+	/*src:url("../img/MomsJumbo2.jpg");*/
+	content:url("../img/MomsJumbo2.jpg");
+	width:100%;
+}
+.page-header{
+	border-bottom:none;
+}
+.page-header h1{
+	padding-left:3rem;
+	font-size:8rem;
+	color:white;
+}
+.jumbo-button{
+	display:none;
+}
+.jumbotron input{
+	margin-left:3rem;
+	margin-top:30rem;
+	padding-left:3rem;
+	padding-right:3rem;
+}
+.colored-button{
+	color:white;
+	background-color:#DC303D;
+	border-color:#DC303D;
+}
+.contents-heading{
+	text-align:center;
+	margin-bottom:4rem;
+	/*color:white;*/
+}
+.contents-heading h2{
+	font-size:5rem;
+	color:white;
+}
+.thumbnails{
+	margin-left:1rem;
+	margin-right:1rem;
+	margin-bottom:1rem;
+}
+.thumbnail{
+	/*height:50rem;*/
+	/*margin-left:1rem;*/
+	/*margin-right:1rem;*/
+    padding-bottom:3rem;
+}
+.thumbnail img{
+	height:20rem;
+}
+.smaller-thumbnail{
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	height:15rem !important;
+}
+.thumbnail h3{
+	font-weight:bold;
+	font-size:3rem;
+}
+.thumbnail p{
+	height:12rem;
+}
+.button-form {
+    margin-top: 1rem;
+}
+.rich-text-container{
+    height:16rem;
+    overflow:auto;
+}

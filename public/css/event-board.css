@@ -1,0 +1,23 @@
+#event-board{
+    /*background-color:#0E6E0E;*/
+    width:100%;
+    min-width: 365px;
+}
+#headings {
+    background-color: #0E6E0E;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+.event-row {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.event-name{
+    font-weight:bold;
+}

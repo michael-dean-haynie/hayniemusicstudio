@@ -1,0 +1,8 @@
+.option{
+    font-size: 5rem;
+    margin-top:5rem;
+}
+
+.delete-button, .event-name{
+    display:inline;
+}

@@ -1,0 +1,44 @@
+.page-header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.classes{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.class{
+    border: 8px solid black;
+    border-radius:2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color: white;
+    padding-bottom: 1rem;
+
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+.rich-text-container{
+    margin-top:1rem;
+}
+#class1{
+    border-color: Green;
+}
+#class2{
+    border-color: Yellow;
+}
+#class3{
+    border-color: Red;
+}
+#class4{
+    border-color: Purple;
+}
+#class5{
+    border-color: Orange;
+}
+
