@@ -89,9 +89,19 @@
                     <form method="post" action={{url('/admin/content')}}>
                         {!! csrf_field() !!}
                         <div class="form-group">
-                            <label for="newContent">Footer Email</label>
+                            <label for="newContent">Email</label>
                             <input type="hidden" name="id" value="20">
                             <input type="text" class="form-control" name="newContent" value="{{$content->find(20)
+                        ['content']}}">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <form method="post" action={{url('/admin/content')}}>
+                        {!! csrf_field() !!}
+                        <div class="form-group">
+                            <label for="newContent">Phone</label>
+                            <input type="hidden" name="id" value="50">
+                            <input type="text" class="form-control" name="newContent" value="{{$content->find(50)
                         ['content']}}">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>

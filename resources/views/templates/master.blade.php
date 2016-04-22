@@ -57,7 +57,10 @@
           <div class="row">
               <?php
               if (isset($content)){
-                echo "<p>Contact us at " . $content->find(20)['content'] . "</p>";
+                echo "<p>Contact us!<br>" . $content->find(50)['content'] . "<br><a href='mailto:" . $content->find(20)
+                        ['content'] . "'>" . $content->find
+                (20)
+                        ['content'] . "</a></p>";
               }
               ?>
           </div>
